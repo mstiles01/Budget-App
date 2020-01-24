@@ -8,3 +8,4 @@ export const ExpenseList = () => {
         </div>
     )
 }
+export default ExpenseList;
