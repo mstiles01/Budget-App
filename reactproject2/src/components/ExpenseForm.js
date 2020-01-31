@@ -10,6 +10,13 @@ export const ExpenseForm = () => {
     name="charge" 
     placeholder="e.g. Rent"></input>
 </div>
+<div className="form-group">
+    <label htmlFor="amount">Amount</label>
+    <input type="text" className="form-control" 
+    id="amount" 
+    name="amount" 
+    placeholder="e.g. 100"></input>
+</div>
 </div>
     </form>;
 }
